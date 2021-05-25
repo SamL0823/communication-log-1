@@ -6,7 +6,6 @@ body {
   font-size: 62.5%;
 }
 
-header,
 main,
 footer {
   background-color: rgb(215, 247, 196);
@@ -15,7 +14,7 @@ footer {
 }
 
 header {
-  padding: 1.875em 0;
+  padding: 3em 0;
 }
 
 header h1 {
@@ -25,7 +24,7 @@ header h1 {
 h1,
 h2,
 h3 {
-  margin: 0;
+  margin: 3;
 }
 
 h1 {
@@ -96,4 +95,18 @@ img {
   body {
     font-size: 50%;
   }
+}
+/* Container holding the image and the text */
+.paw_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
